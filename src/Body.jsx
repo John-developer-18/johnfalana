@@ -10,9 +10,7 @@ function Body() {
     <div className="bg-gradient-to-b from-black/95 to-black/90 flex-[2_2_0%] min-h-[2000px] lg:ml-[15rem] font-Mont">
       <Header/>
       <About/>
-      <Fade
-        duration = {5000}
-      >
+      <Fade>
         <Skills/>
       </Fade>
       <Rotate top left>
