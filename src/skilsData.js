@@ -1,42 +1,42 @@
 const skilsData = [
     { 
         id:1,
-        img:'../public/assets/html.png',
+        img:'assets/html.png',
         text:'HTML',
     },
     {
         id:2,
-        img:'../public/assets/css.png',
+        img:'assets/css.png',
         text:'CSS',   
     },
     {  
         id:3,
-        img:'../public/assets/js.png',
+        img:'assets/js.png',
         text:'JavaScript',
     },
     { 
-        id:1,
-        img:'../public/assets/react.png',
+        id:4,
+        img:'assets/react.png',
         text:'HTML',
     },
     {
-        id:2,
-        img:'../public/assets/tailwind.svg',
+        id:5,
+        img:'assets/tailwind.svg',
         text:'CSS',   
     },
     {  
-        id:3,
-        img:'../public/assets/git.png',
+        id:6,
+        img:'assets/git.png',
         text:'JavaScript',
     },
     {  
-        id:3,
-        img:'../public/assets/gith.png',
+        id:7,
+        img:'assets/gith.png',
         text:'JavaScript',
     },
     {  
-        id:3,
-        img:'../public/assets/vite.png',
+        id:8,
+        img:'assets/vite.png',
         text:'JavaScript',
     }
     

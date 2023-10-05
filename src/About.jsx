@@ -33,7 +33,7 @@ function About() {
         </div>
         </div>
         <div className="rounded-xl cursor-pointer">
-          <img className="w-full rounded-full transition duration-500 ease-in-out hover:drop-shadow-rxl" src="../public/assets/me.png" alt="" />
+          <img className="w-full rounded-full transition duration-500 ease-in-out hover:drop-shadow-rxl" src="assets/me.png" alt="" />
         </div>
       </div>
      </Zoom>
