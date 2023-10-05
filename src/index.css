@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* width */
+body::-webkit-scrollbar {
+  width: 10px;
+  cursor: pointer;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background:black;
+  cursor: pointer;
+} 
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background:rgb(216, 145, 13);
+  height: 10px;
+  cursor: pointer;
+}
+/* .wave{
+  animation: wave 2s linear infinite;
+  
+}
+@keyframes wave {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+} */
+
+.wave {
+  font-size: 3rem;
+  position: absolute;
+ /* Adjust the distance from the bottom as needed */
+ /* Center the emoji horizontally */
+  transform: translateX(-50%); /* Center the emoji horizontally */
+  animation: wave 2s infinite;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px) rotate(-10deg);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-10px) rotate(10deg);
+  }
+}
