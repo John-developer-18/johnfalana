@@ -8,7 +8,7 @@ function About() {
   return (
     <div>
      <Zoom>
-     <div id="about" className="flex md:flex-row flex-col gap-7  md:justify-between min-h-screen px-5 md:items-center ">
+     <div id="about" className="flex pt-7 md:pt-0 md:flex-row flex-col gap-7  md:justify-between min-h-screen px-5 md:items-center ">
         <div className=" bg-myY w-full md:w-1/2 flex flex-col md:items-start items-center gap-5 md:justify-center">
         <p className="text-xl text-myYellow bg-myYellow/20 self-center md:self-start px-3 py-1 rounded-lg relative"><span className="">👋</span>Hi There I am John</p>
          <p className='text-myYellow/75 text-6xl hover:text-myYellow/50 cursor-pointer transition duration-500 ease-in-out'>{"I'm a"}</p>
