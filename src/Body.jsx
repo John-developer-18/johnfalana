@@ -21,7 +21,7 @@ function Body() {
       <Rotate top left>
         <Contact/>
       </Rotate>
-      <div className='fixed bottom-5 right-5 bg-myYellow p-2 rounded-full'>
+      <div className='fixed bottom-5 right-5 bg-myYellow p-2 cursor-pointer'>
        <Link activeClass="active" to="about" spy={true} smooth={true} offset={-84} duration={1000} delay={0}><BsFillHandIndexFill className='text-myGrey text-2xl'/></Link> 
       </div>
       
