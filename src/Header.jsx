@@ -39,8 +39,8 @@ function Header(){
   : 'z-40 fixed top-0 left-0 right-0 w-full bg-black/5 backdrop-blur-lg mb-11 lg:hidden flex items-center md:justify-center justify-end px-5 py-3 visible transition-transform'  
   
   const menuStyles = isOpen 
-  ? "bg-myYellow top-0 left-44 right-0 fixed visble z-40 min-h-screen" 
-  : "bg-myYellow top-0 left-44 right-0 fixed hidden z-40"
+  ? "bg-myYellow top-0 left-0 right-0 fixed visble z-40 min-h-screen" 
+  : "bg-myYellow top-0 left-0 right-0 fixed hidden z-40"
   return(
      <BrowserRouter>
         <div className={headerClasses}>
@@ -54,9 +54,9 @@ function Header(){
                 <div className='flex justify-end p-4'><IoMdClose onClick={toggleMenu} className='text-6xl font-bold text-black cursor-pointer'/></div>
                   <div className='min-h-screen grid place-content-center text-center'>
                   <ul className='space-y-10 flex flex-col'>
-                    <Link spy={true} smooth={true} offset={0} duration={1000} delay={0} to="about" className='cursor-pointer text-3xl font-bold text-black'>About</Link>
-                    <Link spy={true} smooth={true} offset={0} duration={1000} delay={0} to='skills' className='cursor-pointer text-3xl font-bold text-black'>Skills</Link>
-                    <Link spy={true} smooth={true} offset={0} duration={1000} delay={0} to='contact' className='cursor-pointer text-3xl font-bold text-black'>Contact</Link>
+                    <Link onClick={toggleMenu} spy={true} smooth={true} offset={-84} duration={1000} delay={0} to="about" className='cursor-pointer text-3xl font-bold text-black'>About</Link>
+                    <Link onClick={toggleMenu} spy={true} smooth={true} offset={-200} duration={1000} delay={0} to='skills' className='cursor-pointer text-3xl font-bold text-black'>Skills</Link>
+                    <Link onClick={toggleMenu} spy={true} smooth={true} offset={0} duration={1000} delay={0} to='contact' className='cursor-pointer text-3xl font-bold text-black'>Contact</Link>
                   </ul>
                 </div>
                 </div>         
