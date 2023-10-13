@@ -12,9 +12,9 @@ function Sidebar() {
 
       </div> */}
       <ul className="flex flex-col space-y-10 text-myYellow cursor-pointer font-Mont text-xl">
-        <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={1000} delay={0} className="hover:border-l-8 hover:border-myYellow pl-7"><IoPersonSharp className="inline-block mr-5"/>About</Link>
-        <Link activeClass="active" to="skills" spy={true} smooth={true} offset={0} duration={1000} delay={0} className="hover:border-l-8 hover:border-myYellow pl-7"><IoSettingsSharp className="inline-block mr-5"/>Skills</Link>
-        <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={1000} delay={0} className="hover:border-l-8 hover:border-myYellow pl-7"><BsFillTelephoneFill className="inline-block mr-5"/>Contact</Link>
+        <Link activeClass="border-l-8 border-myYellow pl-7" to="about" spy={true} smooth={true} offset={0} duration={1000} delay={0} className="hover:border-l-8 hover:border-myYellow pl-7 hover:text-myYellow"><IoPersonSharp className="inline-block mr-5"/>About</Link>
+        <Link activeClass="border-l-8 border-myYellow pl-7" to="skills" spy={true} smooth={true} offset={-110} duration={1000} delay={0} className="hover:border-l-8 hover:border-myYellow pl-7 hover:text-myYellow"><IoSettingsSharp className="inline-block mr-5"/>Skills</Link>
+        <Link activeClass="border-l-8 border-myYellow pl-7" to="contact" spy={true} smooth={true} offset={0} duration={1000} delay={0} className="hover:border-l-8 hover:border-myYellow pl-7 hover:text-myYellow"><BsFillTelephoneFill className="inline-block mr-5"/>Contact</Link>
       </ul>      
     </div>
     </BrowserRouter>
