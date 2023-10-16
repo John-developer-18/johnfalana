@@ -15,7 +15,7 @@ function About() {
          <p className="text-myYellow">
          <span className='text-myYellow text-4xl'>
           <Typewriter
-            words={[' Front-End Dev', 'Musician', ' ML Enthusiast']}
+            words={[' Front-End Dev', 'Design Freak', ' ML/AI Enthusiast']}
             loop={false}
             cursor
             cursorStyle='|'
