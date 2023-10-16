@@ -54,8 +54,9 @@ npm run dev
 - useState Hook
 - Conditional rendering
 - Using React Scroll
-- Using React Reveal
+- Using React Awesome Reveal
 - Using React Icons
+- Using React Simple TypeWritter
 
 ### Packages and Technologies
 
@@ -64,11 +65,13 @@ npm run dev
 - [React Scroll](https://www.npmjs.com/package/react-scroll)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [React Route Dom](https://www.npmjs.com/package/react-router-dom)
-- [React Reveal](https://www.npmjs.com/package/react-reveal)
+- [React Awesome Reveal](https://www.npmjs.com/package/react-awesome-reveal)
+- [React Simple TypeWritter](https://www.npmjs.com/package/react-simple-typewriter)
 
 ### Useful resources
 
 - [ChatGPT](https://chat.openai.com/)
+- Some Random Indian Guys
 - I will add more later
 
 ## Author
