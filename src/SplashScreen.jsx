@@ -14,7 +14,7 @@ function SplashScreen() {
     <div className={mySplash}>
       <p className="text-6xl text-myYellow font-mono">
       <Typewriter
-            words={['Good day Guys', 'My Director Good Afternoon', 'Welcome to My World', 'Get Ready to Witness Greatness!', 'In 5.....4....3', 'Just Kidding 😂 ']}
+            words={['Good day Guys', 'My Director Good Afternoon Sir', 'Welcome to My World', 'Get Ready to Witness Greatness!', 'In 5.....4....3', 'Just Kidding 😂 ']}
             loop={false}
             cursor
             cursorStyle='|'
