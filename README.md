@@ -17,7 +17,7 @@ This is a project I embarked on to build a portfolio application. Hope you Like 
 ## Overview
 
 ### Screenshot
-![screenshot](assets/github-scr.png)
+![screenshot](./public/assets/github-scr.png)
 
 ### Links
 - **Live Site URL** [@Vercel](https://johnfalana.vercel.app/)
