@@ -1,5 +1,5 @@
 import {Typewriter} from 'react-simple-typewriter'
-import Zoom from 'react-reveal/Zoom'
+import {Bounce} from 'react-awesome-reveal'
 import { IoLogoFacebook, IoLogoGithub } from "react-icons/io5";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { IoLogoInstagram } from "react-icons/io5";
@@ -7,7 +7,7 @@ import { IoLogoInstagram } from "react-icons/io5";
 function About() {
   return (
     <div>
-     <Zoom>
+     <Bounce triggerOnce={false} duration={1000}>
      <div id="about" className="flex pt-7 md:pt-0 md:flex-row flex-col gap-7  md:justify-between min-h-screen px-5 md:items-center ">
         <div className=" bg-myY w-full md:w-1/2 flex flex-col md:items-start items-center gap-5 md:justify-center">
         <p className="text-xl text-myYellow bg-myYellow/20 self-center md:self-start px-3 py-1 rounded-lg relative"><span className="">👋</span>Hi There I am John</p>
@@ -36,7 +36,7 @@ function About() {
           <img className="moving-image w-full rounded-full transition duration-500 ease-in-out md:hover:drop-shadow-rxl" src="assets/me.png" alt="" />
         </div>
       </div>
-     </Zoom>
+     </Bounce>
       
     </div>
   )

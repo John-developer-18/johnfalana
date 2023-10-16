@@ -1,7 +1,8 @@
 import {IoLogoFacebook, IoLogoGithub, IoLogoLinkedin, IoLogoInstagram} from 'react-icons/io'
-
+import { AttentionSeeker } from 'react-awesome-reveal'
 function Contact() {
   return (
+    <AttentionSeeker effect='jello' duration={1000}>
     <div className="px-5 py-2 min-h-screen grid place-content-center"id='contact'>
       <h1 className="text-white font-semibold text-3xl text-center">Contact <span className="text-myYellow">Me</span></h1> 
       <div className='flex justify-center text-myYellow text-4xl gap-5 mt-7'>
@@ -12,6 +13,7 @@ function Contact() {
       </div>
 
     </div>
+    </AttentionSeeker>
   )
 }
 

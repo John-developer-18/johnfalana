@@ -1,6 +1,6 @@
 import Skillscard  from "./Skillscard"
 import skilsData from "./skilsData"
-import Zoom from 'react-reveal/Zoom'
+import {Zoom} from 'react-awesome-reveal'
 function Skills() {
   return (
     <div className="py-20">
